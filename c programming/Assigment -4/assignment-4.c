@@ -85,7 +85,7 @@ int get_num() {
     int num;
     do {
         printf ("Enter number : ");
-        if (scanf("%d",&num) == 1){
+        if (scanf("%d",&num) == 1 && (num > 0) == 1 ){
             break; // Valid input, exit loop
         }
         printf ("Invalid input! Please Enter integer..\n\n");
