@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 
+// Function Prototypes
 int get_num();
 int reverse_inside(int num);
 void multiplication_table();
