@@ -65,5 +65,3 @@ class Triangle :
         print("Perimeter formula : Height1 + Height2 + Breadth ")
         print(f"Perimeter of Triangle : {h1+h2+b1}")
 
-
-SubfieldsInAI.subfields()
